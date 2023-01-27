@@ -1,3 +1,4 @@
+(function(){window.onbeforeunload=function(){return '';}})();
 document.getElementById("submit").onclick = function() {
     var input = document.getElementById('urlInput');
     var submit = document.getElementById('submit');
